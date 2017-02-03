@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24D62171D68619380105EA37 /* Pods_ImageRecognizer_Alamofire_ExternalApi_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AF76CC489778F2D70E74563 /* Pods_ImageRecognizer_Alamofire_ExternalApi_.framework */; };
+		2A7BC3631E4323ED00D79C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BC3621E4323ED00D79C3D /* AppDelegate.swift */; };
+		2A7BC3651E4323ED00D79C3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BC3641E4323ED00D79C3D /* ViewController.swift */; };
+		2A7BC3681E4323ED00D79C3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7BC3661E4323ED00D79C3D /* Main.storyboard */; };
+		2A7BC36B1E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BC3691E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodeld */; };
+		2A7BC36D1E4323ED00D79C3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A7BC36C1E4323ED00D79C3D /* Assets.xcassets */; };
+		2A7BC3701E4323ED00D79C3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A7BC36E1E4323ED00D79C3D /* LaunchScreen.storyboard */; };
+		2A7BC3781E4325C200D79C3D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7BC3771E4325C200D79C3D /* Alamofire.framework */; };
+		2A7BC37A1E4326B200D79C3D /* ChameleonFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7BC3791E4326B200D79C3D /* ChameleonFramework.framework */; };
+		2A7BC37C1E4361A300D79C3D /* TagsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BC37B1E4361A300D79C3D /* TagsDataSource.swift */; };
+		2A7BC37E1E43B8F500D79C3D /* ColorsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7BC37D1E43B8F500D79C3D /* ColorsDataSource.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2A7BC35F1E4323ED00D79C3D /* ImageRecognizer(Alamofire ExternalApi).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageRecognizer(Alamofire ExternalApi).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A7BC3621E4323ED00D79C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A7BC3641E4323ED00D79C3D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A7BC3671E4323ED00D79C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A7BC36A1E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ImageRecognizer_Alamofire_ExternalApi_.xcdatamodel; sourceTree = "<group>"; };
+		2A7BC36C1E4323ED00D79C3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A7BC36F1E4323ED00D79C3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2A7BC3711E4323ED00D79C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7BC3771E4325C200D79C3D /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/ImageRecognizer(Alamofire_ExternalApi)-hbgfpdujtjwmhtbviaeikauqplej/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		2A7BC3791E4326B200D79C3D /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Pods/../build/Debug-iphoneos/ChameleonFramework/ChameleonFramework.framework"; sourceTree = "<group>"; };
+		2A7BC37B1E4361A300D79C3D /* TagsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagsDataSource.swift; sourceTree = "<group>"; };
+		2A7BC37D1E43B8F500D79C3D /* ColorsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsDataSource.swift; sourceTree = "<group>"; };
+		3AF76CC489778F2D70E74563 /* Pods_ImageRecognizer_Alamofire_ExternalApi_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageRecognizer_Alamofire_ExternalApi_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E16D5E8861AD0010390E11 /* Pods-ImageRecognizer(Alamofire ExternalApi).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognizer(Alamofire ExternalApi).debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognizer(Alamofire ExternalApi)/Pods-ImageRecognizer(Alamofire ExternalApi).debug.xcconfig"; sourceTree = "<group>"; };
+		70BF03D7F665303C0EEFD8FF /* Pods-ImageRecognizer(Alamofire ExternalApi).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageRecognizer(Alamofire ExternalApi).release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageRecognizer(Alamofire ExternalApi)/Pods-ImageRecognizer(Alamofire ExternalApi).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A7BC35C1E4323ED00D79C3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7BC37A1E4326B200D79C3D /* ChameleonFramework.framework in Frameworks */,
+				2A7BC3781E4325C200D79C3D /* Alamofire.framework in Frameworks */,
+				24D62171D68619380105EA37 /* Pods_ImageRecognizer_Alamofire_ExternalApi_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A7BC3561E4323ED00D79C3D = {
+			isa = PBXGroup;
+			children = (
+				2A7BC3611E4323ED00D79C3D /* ImageRecognizer(Alamofire ExternalApi) */,
+				2A7BC3601E4323ED00D79C3D /* Products */,
+				9EA05239FEC2D6668429DE24 /* Pods */,
+				8EA1C8AF02B322CDE3B6A9D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2A7BC3601E4323ED00D79C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A7BC35F1E4323ED00D79C3D /* ImageRecognizer(Alamofire ExternalApi).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A7BC3611E4323ED00D79C3D /* ImageRecognizer(Alamofire ExternalApi) */ = {
+			isa = PBXGroup;
+			children = (
+				2A7BC3621E4323ED00D79C3D /* AppDelegate.swift */,
+				2A7BC3641E4323ED00D79C3D /* ViewController.swift */,
+				2A7BC37B1E4361A300D79C3D /* TagsDataSource.swift */,
+				2A7BC37D1E43B8F500D79C3D /* ColorsDataSource.swift */,
+				2A7BC3661E4323ED00D79C3D /* Main.storyboard */,
+				2A7BC36C1E4323ED00D79C3D /* Assets.xcassets */,
+				2A7BC36E1E4323ED00D79C3D /* LaunchScreen.storyboard */,
+				2A7BC3711E4323ED00D79C3D /* Info.plist */,
+				2A7BC3691E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodeld */,
+			);
+			path = "ImageRecognizer(Alamofire ExternalApi)";
+			sourceTree = "<group>";
+		};
+		8EA1C8AF02B322CDE3B6A9D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A7BC3791E4326B200D79C3D /* ChameleonFramework.framework */,
+				2A7BC3771E4325C200D79C3D /* Alamofire.framework */,
+				3AF76CC489778F2D70E74563 /* Pods_ImageRecognizer_Alamofire_ExternalApi_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EA05239FEC2D6668429DE24 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E16D5E8861AD0010390E11 /* Pods-ImageRecognizer(Alamofire ExternalApi).debug.xcconfig */,
+				70BF03D7F665303C0EEFD8FF /* Pods-ImageRecognizer(Alamofire ExternalApi).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A7BC35E1E4323ED00D79C3D /* ImageRecognizer(Alamofire ExternalApi) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A7BC3741E4323ED00D79C3D /* Build configuration list for PBXNativeTarget "ImageRecognizer(Alamofire ExternalApi)" */;
+			buildPhases = (
+				3AF110F35BE7347B00D74DF0 /* [CP] Check Pods Manifest.lock */,
+				2A7BC35B1E4323ED00D79C3D /* Sources */,
+				2A7BC35C1E4323ED00D79C3D /* Frameworks */,
+				2A7BC35D1E4323ED00D79C3D /* Resources */,
+				E7B8E29FF5D006E616A5320C /* [CP] Embed Pods Frameworks */,
+				155EB46865C67BC3E0849606 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageRecognizer(Alamofire ExternalApi)";
+			productName = "ImageRecognizer(Alamofire ExternalApi)";
+			productReference = 2A7BC35F1E4323ED00D79C3D /* ImageRecognizer(Alamofire ExternalApi).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A7BC3571E4323ED00D79C3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Gennadii Tsypenko";
+				TargetAttributes = {
+					2A7BC35E1E4323ED00D79C3D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2LKR95Q97P;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2A7BC35A1E4323ED00D79C3D /* Build configuration list for PBXProject "ImageRecognizer(Alamofire ExternalApi)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2A7BC3561E4323ED00D79C3D;
+			productRefGroup = 2A7BC3601E4323ED00D79C3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A7BC35E1E4323ED00D79C3D /* ImageRecognizer(Alamofire ExternalApi) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A7BC35D1E4323ED00D79C3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7BC3701E4323ED00D79C3D /* LaunchScreen.storyboard in Resources */,
+				2A7BC36D1E4323ED00D79C3D /* Assets.xcassets in Resources */,
+				2A7BC3681E4323ED00D79C3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		155EB46865C67BC3E0849606 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageRecognizer(Alamofire ExternalApi)/Pods-ImageRecognizer(Alamofire ExternalApi)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AF110F35BE7347B00D74DF0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E7B8E29FF5D006E616A5320C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ImageRecognizer(Alamofire ExternalApi)/Pods-ImageRecognizer(Alamofire ExternalApi)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A7BC35B1E4323ED00D79C3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A7BC3651E4323ED00D79C3D /* ViewController.swift in Sources */,
+				2A7BC36B1E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodeld in Sources */,
+				2A7BC3631E4323ED00D79C3D /* AppDelegate.swift in Sources */,
+				2A7BC37E1E43B8F500D79C3D /* ColorsDataSource.swift in Sources */,
+				2A7BC37C1E4361A300D79C3D /* TagsDataSource.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A7BC3661E4323ED00D79C3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7BC3671E4323ED00D79C3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A7BC36E1E4323ED00D79C3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A7BC36F1E4323ED00D79C3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A7BC3721E4323ED00D79C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A7BC3731E4323ED00D79C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A7BC3751E4323ED00D79C3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E16D5E8861AD0010390E11 /* Pods-ImageRecognizer(Alamofire ExternalApi).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LKR95Q97P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
+				);
+				INFOPLIST_FILE = "ImageRecognizer(Alamofire ExternalApi)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gnktspnk.ImageRecognizer-Alamofire-ExternalApi-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2A7BC3761E4323ED00D79C3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70BF03D7F665303C0EEFD8FF /* Pods-ImageRecognizer(Alamofire ExternalApi).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LKR95Q97P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/ChameleonFramework",
+				);
+				INFOPLIST_FILE = "ImageRecognizer(Alamofire ExternalApi)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "gnktspnk.ImageRecognizer-Alamofire-ExternalApi-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A7BC35A1E4323ED00D79C3D /* Build configuration list for PBXProject "ImageRecognizer(Alamofire ExternalApi)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7BC3721E4323ED00D79C3D /* Debug */,
+				2A7BC3731E4323ED00D79C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A7BC3741E4323ED00D79C3D /* Build configuration list for PBXNativeTarget "ImageRecognizer(Alamofire ExternalApi)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A7BC3751E4323ED00D79C3D /* Debug */,
+				2A7BC3761E4323ED00D79C3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2A7BC3691E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2A7BC36A1E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodel */,
+			);
+			currentVersion = 2A7BC36A1E4323ED00D79C3D /* ImageRecognizer_Alamofire_ExternalApi_.xcdatamodel */;
+			path = ImageRecognizer_Alamofire_ExternalApi_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2A7BC3571E4323ED00D79C3D /* Project object */;
+}
